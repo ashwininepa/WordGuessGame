@@ -9,8 +9,5 @@ int num2 = 10;
 int sum = num1 + num2;
 Console.WriteLine(sum);
 
-string name = Console.ReadLine();
-Console.WriteLine("My name is " + name);
-
-string age = Console.ReadLine();
-Console.WriteLine("I am " + age);
+string[] names = { "John", "Mary", "Bob" };
+Console.WriteLine(names[0]);
