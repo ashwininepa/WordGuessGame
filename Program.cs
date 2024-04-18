@@ -11,3 +11,13 @@ Console.WriteLine(sum);
 
 string[] names = { "John", "Mary", "Bob" };
 Console.WriteLine(names[0]);
+
+if(5 > 6){
+    Console.WriteLine("Hi");
+}
+else if(6 < 7){
+    Console.WriteLine("Hello");
+}
+else{
+    Console.WriteLine("Hey");
+}
