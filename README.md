@@ -9,80 +9,135 @@ I practised those exercises on cloud console and then also wanted to have them s
 I want to keep those exercises in ReadMe (references can be found in commits too) as it will be handy for a beginner like me as 
 I am going to edit the Program.cs for the main exercise of this course
 
-// See https://aka.ms/new-console-template for more information
-//#1
-string sentence1 = "I enjoy learning";
-string sentence2 = "I like coding";
-Console.WriteLine(sentence1);
-Console.WriteLine(sentence2);
+1. *Strings and numbers*
 
-int num1 = 5;
-int num2 = 10;
-int sum = num1 + num2;
-Console.WriteLine(sum);
+    string sentence1 = "I enjoy learning";
 
-//#2
-string[] names = { "John", "Mary", "Bob" };
-Console.WriteLine(names[0]);
+    string sentence2 = "I like coding";
 
-//#3
-if(5 > 6){
-    Console.WriteLine("Hi");
-}
-else if(6 < 7){
-    Console.WriteLine("Hello");
-}
-else{
-    Console.WriteLine("Hey");
-}
+    Console.WriteLine(sentence1);
 
-//#4
-bool myBoolean = false;
+    Console.WriteLine(sentence2);
 
-if(myBoolean){
-    Console.WriteLine("It's not true");
-}
+    int num1 = 5;
 
-myBoolean = true;
+    int num2 = 10;
 
-if(myBoolean){
-    Console.WriteLine("It's now true");
-}
+    int sum = num1 + num2;
 
-//#5
-for(int i = 0; i < 5; i++){
-    Console.WriteLine("Hello");
-}
+    Console.WriteLine(sum);
 
-//#6
-for(int i = 5; i > 0; i--){
-    Console.WriteLine("Hi");
-}
 
-//#7
-for(int i = 2; i < 6; i++){
-    Console.WriteLine("Hey");
-}
+2. *Using variables*
 
-//#8
-int num = 0;
-for(int i = 0; i < 10; i++){
-    num++;
-}
-Console.WriteLine(num);
+    string[] names = { "John", "Mary", "Bob" };
 
-//#9
-for(int i = 1; i <= 100; i++){
-    Console.WriteLine(i);
-}
+    Console.WriteLine(names[0]);
 
-//#10
-string[] student_names = new string[3];
-for(int i = 0; i < student_names.Length; i++){
-    Console.WriteLine("Enter student name: ");
-    student_names[i] = Console.ReadLine();
-}
 
-for(int j = 0; j < student_names.Length; j++){
-    Console.WriteLine(student_names[j]);
-}
+3. if-else condition
+
+    if(5 > 6)
+
+    {
+
+        Console.WriteLine("Hi");
+
+    }
+
+    else if(6 < 7)
+
+    {
+
+        Console.WriteLine("Hello");
+    }
+
+    else
+
+    {
+        
+        Console.WriteLine("Hey");
+
+    }
+
+
+4. *Using bool and if-condition (one can also go for if-else)*
+
+    bool myBoolean = false;
+
+    if(myBoolean){
+
+        Console.WriteLine("It's not true");
+
+    }
+
+    myBoolean = true;
+
+    if(myBoolean){
+
+        Console.WriteLine("It's now true");
+        
+    }
+
+
+5. *A. For-loop*
+
+    for(int i = 0; i < 5; i++){
+
+        Console.WriteLine("Hello");
+        
+    }
+
+5. *B. For-loop*
+
+    for(int i = 5; i > 0; i--){
+
+        Console.WriteLine("Hi");
+        
+    }
+
+5. *C. For-loop*
+
+    for(int i = 2; i < 6; i++){
+
+        Console.WriteLine("Hey");
+        
+    }
+
+5. *D. For-loop*
+
+    int num = 0;
+
+    for(int i = 0; i < 10; i++){
+
+        num++;
+
+    }
+
+    Console.WriteLine(num);
+
+5. *E. For-loop*
+
+    for(int i = 1; i <= 100; i++){
+
+        Console.WriteLine(i);
+        
+    }
+
+6. *Using strings and For-loop together*
+
+    string[] student_names = new string[3];
+
+    for(int i = 0; i < student_names.Length; i++){
+
+        Console.WriteLine("Enter student name: ");
+
+        student_names[i] = Console.ReadLine();
+
+    }
+
+    for(int j = 0; j < student_names.Length; j++){
+
+        Console.WriteLine(student_names[j]);
+        
+    }
