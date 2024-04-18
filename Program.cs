@@ -59,3 +59,19 @@ for(int i = 0; i < 10; i++){
     num++;
 }
 Console.WriteLine(num);
+
+//#9
+for(int i = 1; i <= 100; i++){
+    Console.WriteLine(i);
+}
+
+//#10
+string[] student_names = new string[3];
+for(int i = 0; i < student_names.Length; i++){
+    Console.WriteLine("Enter student name: ");
+    student_names[i] = Console.ReadLine();
+}
+
+for(int j = 0; j < student_names.Length; j++){
+    Console.WriteLine(student_names[j]);
+}
