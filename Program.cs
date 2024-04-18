@@ -1,77 +1,45 @@
-﻿// See https://aka.ms/new-console-template for more information
-//#1
-string sentence1 = "I enjoy learning";
-string sentence2 = "I like coding";
-Console.WriteLine(sentence1);
-Console.WriteLine(sentence2);
+﻿// // Console game to guess a word from a list of words
 
-int num1 = 5;
-int num2 = 10;
-int sum = num1 + num2;
-Console.WriteLine(sum);
+// Random rand = new Random();
+// string[] words = ["dog", "cat", "boy", "girl"];
+// string wordToGuess = words[rand.Next(0, words.Length)];
 
-//#2
-string[] names = { "John", "Mary", "Bob" };
-Console.WriteLine(names[0]);
+// bool hasWon = false;
 
-//#3
-if(5 > 6){
-    Console.WriteLine("Hi");
-}
-else if(6 < 7){
-    Console.WriteLine("Hello");
-}
-else{
-    Console.WriteLine("Hey");
-}
+// for(int i = 0; i < words.Length; i++)
+// {
+//     Console.WriteLine("Guess the word: ");
 
-//#4
-bool myBoolean = false;
+//     for(int j = 0; j < wordToGuess.Length; j++)
+//     {
+//         Console.WriteLine(words[j] + " ");
+//     }
+    
+//     Console.WriteLine();
 
-if(myBoolean){
-    Console.WriteLine("It's not true");
-}
+//     Console.WriteLine("Enter your guess: ");
+//     string guess = Console.ReadLine();
 
-myBoolean = true;
+//     if(guess == wordToGuess)
+//     {
+//         hasWon = true;
+//         break;
+//     }
+// }
 
-if(myBoolean){
-    Console.WriteLine("It's now true");
-}
+// if(hasWon)
+// {
+//     Console.WriteLine("You have won!");
+// }
+// else
+// {
+//     Console.WriteLine("You have lost! The word was: " + wordToGuess);
+// }
 
-//#5
-for(int i = 0; i < 5; i++){
-    Console.WriteLine("Hello");
-}
+for(int i = 0; i < 5; i++)
 
-//#6
-for(int i = 5; i > 0; i--){
-    Console.WriteLine("Hi");
-}
+{
 
-//#7
-for(int i = 2; i < 6; i++){
-    Console.WriteLine("Hey");
-}
+    Console.Write(i + "");
 
-//#8
-int num = 0;
-for(int i = 0; i < 10; i++){
-    num++;
-}
-Console.WriteLine(num);
-
-//#9
-for(int i = 1; i <= 100; i++){
-    Console.WriteLine(i);
-}
-
-//#10
-string[] student_names = new string[3];
-for(int i = 0; i < student_names.Length; i++){
-    Console.WriteLine("Enter student name: ");
-    student_names[i] = Console.ReadLine();
-}
-
-for(int j = 0; j < student_names.Length; j++){
-    Console.WriteLine(student_names[j]);
 }
