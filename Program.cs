@@ -1,4 +1,5 @@
-// See https://aka.ms/new-console-template for more information
+﻿// See https://aka.ms/new-console-template for more information
+//#1
 string sentence1 = "I enjoy learning";
 string sentence2 = "I like coding";
 Console.WriteLine(sentence1);
@@ -9,9 +10,11 @@ int num2 = 10;
 int sum = num1 + num2;
 Console.WriteLine(sum);
 
+//#2
 string[] names = { "John", "Mary", "Bob" };
 Console.WriteLine(names[0]);
 
+//#3
 if(5 > 6){
     Console.WriteLine("Hi");
 }
@@ -22,6 +25,7 @@ else{
     Console.WriteLine("Hey");
 }
 
+//#4
 bool myBoolean = false;
 
 if(myBoolean){
@@ -34,13 +38,17 @@ if(myBoolean){
     Console.WriteLine("It's now true");
 }
 
+//#5
 for(int i = 0; i < 5; i++){
     Console.WriteLine("Hello");
 }
 
+//#6
 for(int i = 5; i > 0; i--){
     Console.WriteLine("Hi");
 }
+
+//#7
 for(int i = 2; i < 6; i++){
     Console.WriteLine("Hey");
 }
