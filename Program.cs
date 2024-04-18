@@ -33,3 +33,11 @@ myBoolean = true;
 if(myBoolean){
     Console.WriteLine("It's now true");
 }
+
+for(int i = 0; i < 5; i++){
+    Console.WriteLine("Hello");
+}
+
+for(int i = 5; i > 0; i--){
+    Console.WriteLine("Hi");
+}
