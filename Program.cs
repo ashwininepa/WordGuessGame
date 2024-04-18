@@ -21,3 +21,15 @@ else if(6 < 7){
 else{
     Console.WriteLine("Hey");
 }
+
+bool myBoolean = false;
+
+if(myBoolean){
+    Console.WriteLine("It's not true");
+}
+
+myBoolean = true;
+
+if(myBoolean){
+    Console.WriteLine("It's now true");
+}
