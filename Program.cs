@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 string sentence1 = "I enjoy learning";
 string sentence2 = "I like coding";
 Console.WriteLine(sentence1);
@@ -41,3 +41,13 @@ for(int i = 0; i < 5; i++){
 for(int i = 5; i > 0; i--){
     Console.WriteLine("Hi");
 }
+for(int i = 2; i < 6; i++){
+    Console.WriteLine("Hey");
+}
+
+//#8
+int num = 0;
+for(int i = 0; i < 10; i++){
+    num++;
+}
+Console.WriteLine(num);
